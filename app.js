@@ -23,7 +23,19 @@ desert.name='sss';
 
 document.write(desert.name);
 
+const empArr=[1,3,2,4,5];
+for (let index = 0; index < empArr.length; index++) {
+   // const element = empArr[index];
+//alert(empArr[index]);
+    // setTimeout(() => {
+    //     //console.log(empArr[index]);
+    //     alert(empArr[index]);
+    // }, 5000);
 
-m2();
-m1();
-m2();
+
+    setInterval(() => {
+        console.log(empArr[index]);
+    }, 5000);
+    //set
+    
+}
